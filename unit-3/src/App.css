@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(216, 212, 212);
+}
+
+.sAndC {
+  padding-top: 1.5%;
+}
+
+button {
+  margin-left: 1.5%;
+  margin-bottom: 2%;
+}
+
+.ClearShelfSec {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 5%;
+  border-left: solid black;
+  padding-left: 3%;
+  height: 100vh;
+}
+
+section{
+  background-color: white;
+  width: 80%;
+  margin: 2.5% 25% 2.5% 2%;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #e7e3e3;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(148, 147, 147);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
